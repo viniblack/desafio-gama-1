@@ -1,0 +1,51 @@
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.section-one img {
+  width: 50vw;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url('../img/bg2.jpg');
+}
+
+form {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+form h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: .5rem 0;
+}
+
+form input {
+  margin: .5rem 0;
+  padding: .5rem;
+
+}
+
+footer{
+  padding: 1rem;
+  background-image: url('../img/footer.png');
+  color: #fff;
+  text-align: center;
+}
